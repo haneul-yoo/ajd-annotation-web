@@ -1,0 +1,35 @@
+[
+    {
+        "task": "machine reading comprehension",
+        "text": "Drag the answer span in context",
+        "option": {
+            "answerspan": "",
+            "answerstart": -1
+        }
+    },
+    {
+        "task": "commonsense causal reasoning",
+        "text": "Based on the question type, choose a sentence that meets premise",
+        "option": {
+            "0": "sentence 1",
+            "1": "sentence 2"
+        }
+    },
+    {
+        "task": "natural language inference",
+        "text": "Based on the premise, determine the hypothesis",
+        "option": {
+            "ent": "entailment",
+            "neu": "neutral",
+            "con": "contradict"
+        }
+    },
+    {
+        "task": "binary sentence similarity",
+        "text": "Determine whether two sentences deliver same meaning",
+        "option": {
+            "0": "different",
+            "1": "similar"
+        }
+    }
+]
